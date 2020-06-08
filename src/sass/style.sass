@@ -1,0 +1,128 @@
+@import "./_variable.sass"
+@import "../../node_modules/bootstrap/scss/bootstrap.scss"
+@import "./_font.sass"
+@import "./_icons.sass"
+
+$blackK : #888888
+$d-grey :#333333
+$greyYs: #cacaca
+$redish: #CA5454
+$grey: #9B9B9B
+$light-l: #353535
+.collapse
+
+    display: flex
+
+    justify-content: center
+
+    background-color: white
+
+.whiteS
+
+    height: 25px
+
+    width: 25px
+
+    border-radius: 15%
+
+.blackS
+
+    height: 25px
+
+    width: 25px
+
+    border-radius: 15%
+
+.navbar-nav
+
+    a
+
+        margin-left: 55px
+
+.container
+    width: 550
+    height: 300
+
+
+.h75
+
+    width: 75%
+
+    height: 5px
+
+    border-radius: 15px
+
+.card
+    display: flex
+    justify-content: center
+    align-items: center
+    flex: column
+
+.imgtext
+    position: relative
+    .dope1
+        position: absolute
+        top: 50%
+        left: 40%
+        border-bottom: 1px white solid
+        font-size: 100%
+
+.bgimage
+    background-image: url(../../public/img/cta-bg.jpg)
+    padding: 200px
+    background-size: cover
+    background-position-y: center
+    background-attachment: fixed
+
+.sale
+    text-decoration-line: line-through
+
+
+
+#fashion
+    width: 100%
+    text-transform: capitalize
+    .row
+        padding: 5% 0 5% 0
+        text-align: center
+        width: 100%
+        .container
+            margin-top: 2%
+            overflow: hidden
+            .rowElements
+                display: inline-flex
+                width: 1904px
+                .element
+                    margin-left: 1.3%
+                    img
+                        height: 12rem
+                        width: 17rem
+                    .prod_info
+                        display: inline-flex
+                        width: 100%
+                        .btn
+                            border-radius: 50%
+                        .price_info
+                            display: inline
+                            width: 100%
+                            h4
+                                width: 90%
+                            h5
+                                color: $redish
+                                font-weight: 900
+                                span
+                                    color: $greyYs
+                                    text-decoration: line-through
+                                    margin-right: .5rem
+
+.rowDots
+    display: inline-flex
+    width: 10%
+    margin: 2% auto 0 auto
+    .slide
+        margin-left: 10%
+        height: .8rem
+        width: .8rem
+        border-radius: 50%
+        border: solid 1px $greyYs
+
